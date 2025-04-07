@@ -286,7 +286,7 @@ font-size: 15PX;
 }
 .section8 input{
     background-color: transparent;
-    border-color: #E5E5E3;
+    border: solid white;
 
  
 }
@@ -417,4 +417,247 @@ footer .imagenes{
 iframe{
     width: 1200PX;
     height: 500PX;
+}
+
+/* Media Query para pantallas de hasta 1279px */
+@media screen and (max-width: 1279px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .section1 {
+        flex-direction: column;
+        margin: 50px;
+    }
+
+    .section3 {
+        padding: 100px;
+        height: auto;
+    }
+
+    .section4 {
+        flex-direction: column;
+    }
+
+    .contain4 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section5 img {
+        width: 80%; /* Ajustar el tamaño de la imagen */
+    }
+
+    .section6 img {
+        width: 80%; /* Ajustar el tamaño de la imagen */
+    }
+
+    .section7 img {
+        width: 80%; /* Ajustar el tamaño de la imagen */
+    }
+
+    .section8 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section9 {
+        padding: 20px;
+    }
+}
+
+/* Media Query para pantallas de hasta 920px */
+@media screen and (max-width: 920px) {
+    .logo img {
+        height: 40px;
+    }
+
+    nav ul li {
+        margin-left: 10px;
+    }
+
+    .title {
+        font-size: 30px; /* Tamaño de texto más pequeño */
+    }
+
+    .but-yellow {
+        padding: 5px 15px;
+    }
+
+    .section2 {
+        flex-direction: column;
+    }
+
+    .img-barras {
+        width: 100%; /* Ajustar el tamaño de la imagen */
+    }
+
+    .section3 p {
+        font-size: 18px; /* Tamaño de texto más pequeño */
+    }
+
+    .section5 h2 {
+        font-size: 20px; /* Tamaño de texto más pequeño */
+    }
+
+    .section6 p {
+        font-size: 12px; /* Tamaño de texto más pequeño */
+    }
+
+    .section8 .contain8 {
+        width: 100%;
+    }
+
+    .section9 button {
+        width: 100%;
+    }
+}
+
+/* Media Query para pantallas de hasta 768px */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 5px;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    .section1 {
+        margin: 30px;
+    }
+
+    .section2 {
+        margin: 30px;
+    }
+
+    .section3 {
+        padding: 50px;
+    }
+
+    .section4 {
+        margin: 20px;
+    }
+
+    .section5 {
+        height: auto;
+    }
+
+    .section6 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section7 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section8 {
+        margin: 20px;
+    }
+
+    /* Ajustes para el formulario */
+    .section8 input {
+        width: 90%; /* Hacer los inputs más pequeños */
+        margin: 10px 0; /* Espaciado entre inputs */
+    }
+}
+
+/* Media Query para pantallas de hasta 480px */
+@media screen and (max-width: 480px) {
+    header{
+        align-items: center;
+    }
+    .logo img {
+        height: 30px;
+    }
+    .title-section3 h2{
+        width: 20px;
+        padding: 0px;
+    }
+    
+    .section3 img{
+        width: 300px;
+        left: 8px;
+        margin-top: -100px;
+    }
+    
+    .section3 p{
+        margin-top: 370px;
+        padding: -80px;
+        font-size: 15px;
+    }
+
+    nav ul li {
+        margin-left: 5px;
+    }
+    /*voy aca*/
+    
+  
+    .title {
+        font-size: 24px; /* Tamaño de texto más pequeño */
+    }
+
+    .but-yellow {
+        padding: 5px 10px;
+    }
+
+    .section1 {
+        margin: 20px;
+    }
+
+    .section2 {
+        margin: 20px;
+    }
+
+    .section3 {
+        padding: 30px;
+    }
+
+    .section4 {
+        margin: 0px;
+    }
+    .contain4{
+        height: 100%;
+        width: 100%;
+        display: flex;
+    }
+    .contain4 .box1 img{
+        height: 100%;
+        width: 340px;
+    }
+
+    .contain4 .box2 img{
+        position: relative;
+        left: 87px;
+    }
+    .section5 h2 {
+        font-size: 18px; /* Tamaño de texto más pequeño */
+    }
+
+    .section6 p {
+        font-size: 10px; /* Tamaño de texto más pequeño */
+    }
+
+    .section8 .contain8 {
+        width: 100%;
+    }
+
+    .section9 {
+        padding: 10px;
+    }
+
+    /* Ajustes para el formulario */
+    .section8 input {
+        width: 100%; /* Hacer los inputs más pequeños */
+        margin: 5px 0; /* Espaciado entre inputs */
+        font-size: 12px; /* Tamaño de texto más pequeño */
+    }
 }
