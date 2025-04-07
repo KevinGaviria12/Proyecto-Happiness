@@ -374,7 +374,9 @@ margin-left: 80px;
     justify-content: center;
     align-items: center;
 }
-
+.section9 img{
+    max-width: 50%;
+}
 .section9 button{
   background-color: #000;
   color: #E6E6E6;
@@ -653,7 +655,6 @@ iframe{
     .section9 {
         padding: 10px;
     }
-
     /* Ajustes para el formulario */
     .section8 input {
         width: 100%; /* Hacer los inputs más pequeños */
