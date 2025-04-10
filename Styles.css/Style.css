@@ -121,7 +121,7 @@ nav ul li a {
 }
 
 .section3 img {
-  width: 600px;
+  width: 480px;
   position: relative;
   z-index: 1;
   left: 550px;
@@ -388,8 +388,10 @@ footer .listas {
 footer .end {
   display: flex;
   color: yellow;
-  justify-content: space-between;
+  justify-content: flex-end;
   background: #000;
+  flex-direction: column;
+  align-items: flex-end;
   margin: 0;
 }
 
@@ -397,6 +399,7 @@ footer .imagenes {
   height: 20px;
   margin-left: 13px;
   color: #ffd700;
+  filter: invert(76%) sepia(97%) saturate(471%) hue-rotate(0deg);
 }
 
 @media screen and (max-width: 1279px) {
@@ -420,6 +423,13 @@ footer .imagenes {
     height: auto;
   }
 
+  .section3 img {
+    width: 480px;
+    position: relative;
+    z-index: 1;
+    left: 550px;
+    bottom: 300px;
+  }
   .section4 {
     flex-direction: column;
   }
@@ -471,9 +481,34 @@ footer .imagenes {
   .section2 {
     flex-direction: column;
   }
+  .section2 {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    max-width: 930px;
+    position: relative;
+    bottom: 60px;
+    z-index: 1;
+  }
+
+  .section3 img {
+    width: 448px;
+    position: relative;
+    left: 151px;
+    bottom: -49px;
+  }
 
   .img-barras {
-    width: 100%;
+    width: 45%;
+  }
+  .section4{
+    margin: 0;
+  }
+  .contain4{
+    width: auto;
+    height: auto;
   }
 
   .section3 p {
@@ -553,9 +588,9 @@ footer .imagenes {
   }
 
   .logo img {
-    height: 30px;
+    height: 70px;
   }
-  .texto h2{
+  .texto h2 {
     font-size: 30px;
     padding: 20%;
   }
@@ -580,7 +615,7 @@ footer .imagenes {
     margin-top: -100px;
   }
 
-  .section3 p{
+  .section3 p {
     margin-top: 288px;
     text-align: center;
     font-size: 14px;
@@ -653,11 +688,11 @@ footer .imagenes {
     margin-top: -6%;
   }
 
-  .section7 h2{
+  .section7 h2 {
     font-size: 30px;
     padding: 8%;
   }
-  
+
   .section7 img {
     width: 62%;
   }
@@ -687,7 +722,7 @@ footer .imagenes {
   .section3 p {
     width: 283px;
     font-size: 88%;
-}
+  }
   .section8 .box2 {
     margin-left: 38px;
   }
@@ -722,7 +757,7 @@ footer .imagenes {
     width: 345px;
     font-size: 97%;
   }
-  .contain8 p{
+  .contain8 p {
     margin-left: 20%;
   }
 
@@ -735,6 +770,10 @@ footer .imagenes {
   }
   .section9 {
     padding: 10px;
+  }
+  .box5 {
+    display: flex;
+    justify-content: space-around;
   }
   .img-barras {
     width: 70%;
